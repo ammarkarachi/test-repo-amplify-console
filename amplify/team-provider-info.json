@@ -1,0 +1,22 @@
+{
+    "afefe": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-amplify-cli-command-afefe-130210-authRole",
+            "UnauthRoleArn": "arn:aws:iam::220671699034:role/amplify-amplify-cli-command-afefe-130210-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::220671699034:role/amplify-amplify-cli-command-afefe-130210-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-amplify-cli-command-afefe-130210-deployment",
+            "UnauthRoleName": "amplify-amplify-cli-command-afefe-130210-unauthRole",
+            "StackName": "amplify-amplify-cli-command-afefe-130210",
+            "StackId": "arn:aws:cloudformation:us-west-2:220671699034:stack/amplify-amplify-cli-command-afefe-130210/c5cac210-51c8-11ea-bb51-02426cd4c746",
+            "AmplifyAppId": "d3fpi0b12qewu9"
+        },
+        "categories": {
+            "auth": {
+                "amplifyclicommand99a7d549": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"abckejkjl\",\"client_secret\":\"djfid9989dfm\"}]"
+                }
+            }
+        }
+    }
+}
