@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "amplifyclicommand99a7d549_identitypool_99a7d549",
+    "identityPoolName": "amplifyclicommandff695ed4_identitypool_ff695ed4",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "amplif99a7d549",
-    "userPoolName": "amplifyclicommand99a7d549_userpool_99a7d549",
+    "resourceNameTruncated": "amplifff695ed4",
+    "userPoolName": "amplifyclicommandff695ed4_userpool_ff695ed4",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -28,9 +28,9 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "amplif99a7d549_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "amplifff695ed4_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "resourceName": "amplifyclicommand99a7d549",
+    "resourceName": "amplifyclicommandff695ed4",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
@@ -45,13 +45,18 @@
         ]
     },
     "useDefault": "defaultSocial",
-    "userPoolGroupList": [],
-    "dependsOn": [],
     "hostedUI": true,
-    "hostedUIDomainName": "amplifyclikafljds",
+    "triggers": "{}",
+    "hostedUIDomainName": "amplifyclicommandff695ed4-ff695ed4",
     "authProvidersUserPool": [
         "Facebook"
     ],
     "hostedUIProviderMeta": "[{\"ProviderName\":\"Facebook\",\"authorize_scopes\":\"email,public_profile\",\"AttributeMapping\":{\"email\":\"email\",\"username\":\"id\"}}]",
-    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://example.com/\"],\"LogoutURLs\":[\"https://example.com/\"]}"
+    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://localhost.com/\",\"https://localhost.com/\"],\"LogoutURLs\":[\"https://localhost.com/\"]}",
+    "userPoolGroupList": [],
+    "parentStack": {
+        "Ref": "AWS::StackId"
+    },
+    "permissions": [],
+    "dependsOn": []
 }
