@@ -1,20 +1,19 @@
 {
-    "afefe": {
+    "dev": {
         "awscloudformation": {
-            "AuthRoleName": "amplify-amplify-cli-command-afefe-130210-authRole",
-            "UnauthRoleArn": "arn:aws:iam::220671699034:role/amplify-amplify-cli-command-afefe-130210-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::220671699034:role/amplify-amplify-cli-command-afefe-130210-authRole",
-            "Region": "us-west-2",
-            "DeploymentBucketName": "amplify-amplify-cli-command-afefe-130210-deployment",
-            "UnauthRoleName": "amplify-amplify-cli-command-afefe-130210-unauthRole",
-            "StackName": "amplify-amplify-cli-command-afefe-130210",
-            "StackId": "arn:aws:cloudformation:us-west-2:220671699034:stack/amplify-amplify-cli-command-afefe-130210/c5cac210-51c8-11ea-bb51-02426cd4c746",
-            "AmplifyAppId": "d3fpi0b12qewu9"
+            "AuthRoleName": "amplify-testamplifyclicomman-dev-150844-authRole",
+            "UnauthRoleArn": "arn:aws:iam::992064685867:role/amplify-testamplifyclicomman-dev-150844-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::992064685867:role/amplify-testamplifyclicomman-dev-150844-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-testamplifyclicomman-dev-150844-deployment",
+            "UnauthRoleName": "amplify-testamplifyclicomman-dev-150844-unauthRole",
+            "StackName": "amplify-testamplifyclicomman-dev-150844",
+            "StackId": "arn:aws:cloudformation:us-east-1:992064685867:stack/amplify-testamplifyclicomman-dev-150844/c9f4f9f0-536c-11ea-9f49-0a7396047ff3"
         },
         "categories": {
             "auth": {
-                "amplifyclicommandff695ed4": {
-                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"asdsadas\",\"client_secret\":\"asdsadsad\"}]"
+                "testamplifyclicomman3788e966": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"123\",\"client_secret\":\"123\"}]"
                 }
             }
         }

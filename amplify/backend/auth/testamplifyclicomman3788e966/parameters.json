@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "amplifyclicommandff695ed4_identitypool_ff695ed4",
+    "identityPoolName": "testamplifyclicomman3788e966_identitypool_3788e966",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "amplifff695ed4",
-    "userPoolName": "amplifyclicommandff695ed4_userpool_ff695ed4",
+    "resourceNameTruncated": "testam3788e966",
+    "userPoolName": "testamplifyclicomman3788e966_userpool_3788e966",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -28,9 +28,9 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "amplifff695ed4_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "testam3788e966_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "resourceName": "amplifyclicommandff695ed4",
+    "resourceName": "testamplifyclicomman3788e966",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
@@ -46,17 +46,12 @@
     },
     "useDefault": "defaultSocial",
     "hostedUI": true,
-    "triggers": "{}",
-    "hostedUIDomainName": "amplifyclicommandff695ed4-ff695ed4",
+    "hostedUIDomainName": "testamplifyclicomman3788e966-3788e966",
     "authProvidersUserPool": [
         "Facebook"
     ],
     "hostedUIProviderMeta": "[{\"ProviderName\":\"Facebook\",\"authorize_scopes\":\"email,public_profile\",\"AttributeMapping\":{\"email\":\"email\",\"username\":\"id\"}}]",
-    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://localhost.com/\",\"https://localhost.com/\"],\"LogoutURLs\":[\"https://localhost.com/\"]}",
+    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost.com/\"],\"LogoutURLs\":[\"http://localhost.com/\"]}",
     "userPoolGroupList": [],
-    "parentStack": {
-        "Ref": "AWS::StackId"
-    },
-    "permissions": [],
     "dependsOn": []
 }
