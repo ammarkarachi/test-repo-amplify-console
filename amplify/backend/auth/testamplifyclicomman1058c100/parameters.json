@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "testamplifyclicomman0ce5fc2b_identitypool_0ce5fc2b",
+    "identityPoolName": "testamplifyclicomman1058c100_identitypool_1058c100",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "testam0ce5fc2b",
-    "userPoolName": "testamplifyclicomman0ce5fc2b_userpool_0ce5fc2b",
+    "resourceNameTruncated": "testam1058c100",
+    "userPoolName": "testamplifyclicomman1058c100_userpool_1058c100",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -28,9 +28,9 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "testam0ce5fc2b_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "testam1058c100_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "resourceName": "testamplifyclicomman0ce5fc2b",
+    "resourceName": "testamplifyclicomman1058c100",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
@@ -46,12 +46,17 @@
     },
     "useDefault": "defaultSocial",
     "hostedUI": true,
-    "hostedUIDomainName": "testamplifyclicomman0ce5fc2b-0ce5fc2b",
+    "triggers": "{}",
+    "hostedUIDomainName": "testamplifyclicomman1058c100-1058c100",
     "authProvidersUserPool": [
         "Facebook"
     ],
     "hostedUIProviderMeta": "[{\"ProviderName\":\"Facebook\",\"authorize_scopes\":\"email,public_profile\",\"AttributeMapping\":{\"email\":\"email\",\"username\":\"id\"}}]",
-    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost/\"],\"LogoutURLs\":[\"http://localhost/\"]}",
     "userPoolGroupList": [],
-    "dependsOn": []
+    "parentStack": {
+        "Ref": "AWS::StackId"
+    },
+    "permissions": [],
+    "dependsOn": [],
+    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"https://google.com/\"],\"LogoutURLs\":[\"https://google.com/\"]}"
 }
