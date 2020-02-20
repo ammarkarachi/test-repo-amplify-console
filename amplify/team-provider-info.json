@@ -1,19 +1,38 @@
 {
     "dev": {
         "awscloudformation": {
-            "AuthRoleName": "amplify-testamplifyclicomman-dev-150844-authRole",
-            "UnauthRoleArn": "arn:aws:iam::992064685867:role/amplify-testamplifyclicomman-dev-150844-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::992064685867:role/amplify-testamplifyclicomman-dev-150844-authRole",
+            "AuthRoleName": "amplify-testamplifyclicomman-dev-163020-authRole",
+            "UnauthRoleArn": "arn:aws:iam::992064685867:role/amplify-testamplifyclicomman-dev-163020-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::992064685867:role/amplify-testamplifyclicomman-dev-163020-authRole",
             "Region": "us-east-1",
-            "DeploymentBucketName": "amplify-testamplifyclicomman-dev-150844-deployment",
-            "UnauthRoleName": "amplify-testamplifyclicomman-dev-150844-unauthRole",
-            "StackName": "amplify-testamplifyclicomman-dev-150844",
-            "StackId": "arn:aws:cloudformation:us-east-1:992064685867:stack/amplify-testamplifyclicomman-dev-150844/c9f4f9f0-536c-11ea-9f49-0a7396047ff3"
+            "DeploymentBucketName": "amplify-testamplifyclicomman-dev-163020-deployment",
+            "UnauthRoleName": "amplify-testamplifyclicomman-dev-163020-unauthRole",
+            "StackName": "amplify-testamplifyclicomman-dev-163020",
+            "StackId": "arn:aws:cloudformation:us-east-1:992064685867:stack/amplify-testamplifyclicomman-dev-163020/2e3927a0-5378-11ea-bbdd-0e2e9aec3a21"
         },
         "categories": {
             "auth": {
-                "testamplifyclicomman3788e966": {
+                "testamplifyclicomman0ce5fc2b": {
                     "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"123\",\"client_secret\":\"123\"}]"
+                }
+            }
+        }
+    },
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-testamplifyclicomman-prod-163910-authRole",
+            "UnauthRoleArn": "arn:aws:iam::992064685867:role/amplify-testamplifyclicomman-prod-163910-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::992064685867:role/amplify-testamplifyclicomman-prod-163910-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-testamplifyclicomman-prod-163910-deployment",
+            "UnauthRoleName": "amplify-testamplifyclicomman-prod-163910-unauthRole",
+            "StackName": "amplify-testamplifyclicomman-prod-163910",
+            "StackId": "arn:aws:cloudformation:us-east-1:992064685867:stack/amplify-testamplifyclicomman-prod-163910/6a0f5780-5379-11ea-b051-12cf2806950f"
+        },
+        "categories": {
+            "auth": {
+                "testamplifyclicomman0ce5fc2b": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"adsasd\",\"client_secret\":\"asdad\"}]"
                 }
             }
         }

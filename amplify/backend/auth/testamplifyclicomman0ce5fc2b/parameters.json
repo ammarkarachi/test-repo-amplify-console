@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "testamplifyclicomman3788e966_identitypool_3788e966",
+    "identityPoolName": "testamplifyclicomman0ce5fc2b_identitypool_0ce5fc2b",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "testam3788e966",
-    "userPoolName": "testamplifyclicomman3788e966_userpool_3788e966",
+    "resourceNameTruncated": "testam0ce5fc2b",
+    "userPoolName": "testamplifyclicomman0ce5fc2b_userpool_0ce5fc2b",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -28,9 +28,9 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "testam3788e966_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "testam0ce5fc2b_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "resourceName": "testamplifyclicomman3788e966",
+    "resourceName": "testamplifyclicomman0ce5fc2b",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
@@ -46,12 +46,12 @@
     },
     "useDefault": "defaultSocial",
     "hostedUI": true,
-    "hostedUIDomainName": "testamplifyclicomman3788e966-3788e966",
+    "hostedUIDomainName": "testamplifyclicomman0ce5fc2b-0ce5fc2b",
     "authProvidersUserPool": [
         "Facebook"
     ],
     "hostedUIProviderMeta": "[{\"ProviderName\":\"Facebook\",\"authorize_scopes\":\"email,public_profile\",\"AttributeMapping\":{\"email\":\"email\",\"username\":\"id\"}}]",
-    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost.com/\"],\"LogoutURLs\":[\"http://localhost.com/\"]}",
+    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost/\"],\"LogoutURLs\":[\"http://localhost/\"]}",
     "userPoolGroupList": [],
     "dependsOn": []
 }
